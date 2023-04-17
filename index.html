@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sketchbook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container" id="gradient">
+        <div class="up">
+            <div class="sketchbook" style="font-size:3rem;">
+                sketchbook
+            </div>
+            <div class="options">
+                <p style="color:rgb(194, 194, 194); font-size: small;text-align: right;">©abdulsk 2023</p>
+                <p style="color:rgb(226, 226, 226); font-size: large; margin:10px;">Draw your Imagination</p>
+                <button class="clear">clear</button>
+                <button class="erase">erase</button>
+                <button class="active">draw</button>
+                <button class="rainbow">rainbow</button>
+                <div style="display:block;color:#724cf9 ;margin:5svh;" class="blockdisplay">
+                    <label for="range">canvas size</label>
+                    <input type="range" class="range-class" min="1" max="101" name="range" step="10" value="10" >
+                    </div>
+                <p style="display:inline-block;color:#724cf9" class="blockdisplay">pick color</p>
+                <input type="color" class="clr" >
+            </div>
+        </div>
+        <div class="frame">
+
+        </div>
+    </div>
+
+
+<script src="maingpt.js"></script>    
+</body>
+</html>
